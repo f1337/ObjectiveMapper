@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A6D3F1916DE7F1B005EAA6C /* NSObject+MFIntrospectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D3F1816DE7F1B005EAA6C /* NSObject+MFIntrospectable.m */; };
+		3A6D3F2016DE7F63005EAA6C /* MFDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D3F1B16DE7F63005EAA6C /* MFDummy.m */; };
+		3A6D3F2116DE7F63005EAA6C /* MFIntrospectableTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D3F1D16DE7F63005EAA6C /* MFIntrospectableTest.m */; };
+		3A6D3F2216DE7F63005EAA6C /* MFMapperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D3F1F16DE7F63005EAA6C /* MFMapperTest.m */; };
+		3A6D3F2316DE8010005EAA6C /* NSObject+MFIntrospectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D3F1816DE7F1B005EAA6C /* NSObject+MFIntrospectable.m */; };
 		3AED1FA716DE7D5600E872E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AED1FA616DE7D5600E872E3 /* Foundation.framework */; };
 		3AED1FAC16DE7D5600E872E3 /* MFMapper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AED1FAB16DE7D5600E872E3 /* MFMapper.h */; };
 		3AED1FAE16DE7D5600E872E3 /* MFMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AED1FAD16DE7D5600E872E3 /* MFMapper.m */; };
@@ -15,7 +20,6 @@
 		3AED1FB916DE7D5600E872E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AED1FA616DE7D5600E872E3 /* Foundation.framework */; };
 		3AED1FBC16DE7D5600E872E3 /* libMFMapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AED1FA316DE7D5600E872E3 /* libMFMapper.a */; };
 		3AED1FC216DE7D5600E872E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3AED1FC016DE7D5600E872E3 /* InfoPlist.strings */; };
-		3AED1FC516DE7D5600E872E3 /* MFMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AED1FC416DE7D5600E872E3 /* MFMapperTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3A6D3F1716DE7F1B005EAA6C /* NSObject+MFIntrospectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MFIntrospectable.h"; sourceTree = "<group>"; };
+		3A6D3F1816DE7F1B005EAA6C /* NSObject+MFIntrospectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MFIntrospectable.m"; sourceTree = "<group>"; };
+		3A6D3F1A16DE7F63005EAA6C /* MFDummy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFDummy.h; sourceTree = "<group>"; };
+		3A6D3F1B16DE7F63005EAA6C /* MFDummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFDummy.m; sourceTree = "<group>"; };
+		3A6D3F1C16DE7F63005EAA6C /* MFIntrospectableTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFIntrospectableTest.h; sourceTree = "<group>"; };
+		3A6D3F1D16DE7F63005EAA6C /* MFIntrospectableTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFIntrospectableTest.m; sourceTree = "<group>"; };
+		3A6D3F1E16DE7F63005EAA6C /* MFMapperTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFMapperTest.h; sourceTree = "<group>"; };
+		3A6D3F1F16DE7F63005EAA6C /* MFMapperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMapperTest.m; sourceTree = "<group>"; };
 		3AED1FA316DE7D5600E872E3 /* libMFMapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMFMapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AED1FA616DE7D5600E872E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3AED1FAA16DE7D5600E872E3 /* MFMapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MFMapper-Prefix.pch"; sourceTree = "<group>"; };
@@ -52,8 +64,6 @@
 		3AED1FB716DE7D5600E872E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3AED1FBF16DE7D5600E872E3 /* MFMapperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MFMapperTests-Info.plist"; sourceTree = "<group>"; };
 		3AED1FC116DE7D5600E872E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3AED1FC316DE7D5600E872E3 /* MFMapperTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFMapperTests.h; sourceTree = "<group>"; };
-		3AED1FC416DE7D5600E872E3 /* MFMapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFMapperTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +123,8 @@
 			children = (
 				3AED1FAB16DE7D5600E872E3 /* MFMapper.h */,
 				3AED1FAD16DE7D5600E872E3 /* MFMapper.m */,
+				3A6D3F1716DE7F1B005EAA6C /* NSObject+MFIntrospectable.h */,
+				3A6D3F1816DE7F1B005EAA6C /* NSObject+MFIntrospectable.m */,
 				3AED1FA916DE7D5600E872E3 /* Supporting Files */,
 			);
 			path = MFMapper;
@@ -129,8 +141,12 @@
 		3AED1FBD16DE7D5600E872E3 /* MFMapperTests */ = {
 			isa = PBXGroup;
 			children = (
-				3AED1FC316DE7D5600E872E3 /* MFMapperTests.h */,
-				3AED1FC416DE7D5600E872E3 /* MFMapperTests.m */,
+				3A6D3F1A16DE7F63005EAA6C /* MFDummy.h */,
+				3A6D3F1B16DE7F63005EAA6C /* MFDummy.m */,
+				3A6D3F1C16DE7F63005EAA6C /* MFIntrospectableTest.h */,
+				3A6D3F1D16DE7F63005EAA6C /* MFIntrospectableTest.m */,
+				3A6D3F1E16DE7F63005EAA6C /* MFMapperTest.h */,
+				3A6D3F1F16DE7F63005EAA6C /* MFMapperTest.m */,
 				3AED1FBE16DE7D5600E872E3 /* Supporting Files */,
 			);
 			path = MFMapperTests;
@@ -244,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AED1FAE16DE7D5600E872E3 /* MFMapper.m in Sources */,
+				3A6D3F1916DE7F1B005EAA6C /* NSObject+MFIntrospectable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AED1FC516DE7D5600E872E3 /* MFMapperTests.m in Sources */,
+				3A6D3F2016DE7F63005EAA6C /* MFDummy.m in Sources */,
+				3A6D3F2116DE7F63005EAA6C /* MFIntrospectableTest.m in Sources */,
+				3A6D3F2216DE7F63005EAA6C /* MFMapperTest.m in Sources */,
+				3A6D3F2316DE8010005EAA6C /* NSObject+MFIntrospectable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +423,7 @@
 				3AED1FCA16DE7D5600E872E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AED1FCB16DE7D5600E872E3 /* Build configuration list for PBXNativeTarget "MFMapperTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +432,7 @@
 				3AED1FCD16DE7D5600E872E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
