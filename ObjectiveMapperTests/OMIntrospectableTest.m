@@ -8,9 +8,15 @@
 
 
 
-#import "OMIntrospectableTest.h"
+#import <SenTestingKit/SenTestingKit.h>
+#import "ObjectiveMapper.h"
 #import "OMDummy.h"
-#import "NSObject+OMIntrospectable.h"
+
+
+
+
+@interface OMIntrospectableTest : SenTestCase
+@end
 
 
 

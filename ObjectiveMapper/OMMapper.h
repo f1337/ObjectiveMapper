@@ -6,8 +6,19 @@
 //  Copyright (c) 2013 Michael R. Fleet. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+
+
+#import "NSObject+OMIntrospectable.h"
+
+
 
 @interface OMMapper : NSObject
+
+
+
++ (id)mapValuesFromDictionary:(NSDictionary *)source withMap:(NSDictionary *)map;
++ (id)mapValuesFromDictionary:(NSDictionary *)source withMap:(NSDictionary *)map forClass:(Class)aClass;
+
+
 
 @end
