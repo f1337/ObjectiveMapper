@@ -1,6 +1,6 @@
 //
-//  MFIntrospectableTest.m
-//  Empire
+//  OMIntrospectableTest.m
+//  ObjectiveMapper
 //
 //  Created by Michael R. Fleet on 12/21/12.
 //  Copyright (c) 2012 Michael Fleet. All rights reserved.
@@ -8,13 +8,13 @@
 
 
 
-#import "MFIntrospectableTest.h"
-#import "MFDummy.h"
-#import "NSObject+MFIntrospectable.h"
+#import "OMIntrospectableTest.h"
+#import "OMDummy.h"
+#import "NSObject+OMIntrospectable.h"
 
 
 
-@implementation MFIntrospectableTest
+@implementation OMIntrospectableTest
 
 
 
@@ -33,7 +33,7 @@
     for (NSString *key in types)
     {
         Class expectedClass = [types objectForKey:key];
-        Class actualClass = [MFDummy classForKey:key];
+        Class actualClass = [OMDummy classForKey:key];
         if ( ! [actualClass isSubclassOfClass:expectedClass] )
         {
             STFail(@"Expected: %@, got: %@", expectedClass, actualClass);

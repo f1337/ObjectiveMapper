@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A6D3F1916DE7F1B005EAA6C /* NSObject+MFIntrospectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D3F1816DE7F1B005EAA6C /* NSObject+MFIntrospectable.m */; };
-		3A6D3F2016DE7F63005EAA6C /* MFDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D3F1B16DE7F63005EAA6C /* MFDummy.m */; };
-		3A6D3F2116DE7F63005EAA6C /* MFIntrospectableTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D3F1D16DE7F63005EAA6C /* MFIntrospectableTest.m */; };
-		3A6D3F2216DE7F63005EAA6C /* MFMapperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D3F1F16DE7F63005EAA6C /* MFMapperTest.m */; };
-		3A6D3F2316DE8010005EAA6C /* NSObject+MFIntrospectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D3F1816DE7F1B005EAA6C /* NSObject+MFIntrospectable.m */; };
+		3A6D3F1916DE7F1B005EAA6C /* NSObject+OMIntrospectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D3F1816DE7F1B005EAA6C /* NSObject+OMIntrospectable.m */; };
+		3A6D3F2016DE7F63005EAA6C /* OMDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D3F1B16DE7F63005EAA6C /* OMDummy.m */; };
+		3A6D3F2116DE7F63005EAA6C /* OMIntrospectableTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D3F1D16DE7F63005EAA6C /* OMIntrospectableTest.m */; };
+		3A6D3F2216DE7F63005EAA6C /* OMMapperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D3F1F16DE7F63005EAA6C /* OMMapperTest.m */; };
+		3A6D3F2316DE8010005EAA6C /* NSObject+OMIntrospectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D3F1816DE7F1B005EAA6C /* NSObject+OMIntrospectable.m */; };
 		3AED1FA716DE7D5600E872E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AED1FA616DE7D5600E872E3 /* Foundation.framework */; };
-		3AED1FAC16DE7D5600E872E3 /* MFMapper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AED1FAB16DE7D5600E872E3 /* MFMapper.h */; };
-		3AED1FAE16DE7D5600E872E3 /* MFMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AED1FAD16DE7D5600E872E3 /* MFMapper.m */; };
+		3AED1FAC16DE7D5600E872E3 /* OMMapper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AED1FAB16DE7D5600E872E3 /* OMMapper.h */; };
+		3AED1FAE16DE7D5600E872E3 /* OMMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AED1FAD16DE7D5600E872E3 /* OMMapper.m */; };
 		3AED1FB616DE7D5600E872E3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AED1FB516DE7D5600E872E3 /* SenTestingKit.framework */; };
 		3AED1FB816DE7D5600E872E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AED1FB716DE7D5600E872E3 /* UIKit.framework */; };
 		3AED1FB916DE7D5600E872E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AED1FA616DE7D5600E872E3 /* Foundation.framework */; };
@@ -39,26 +39,26 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				3AED1FAC16DE7D5600E872E3 /* MFMapper.h in CopyFiles */,
+				3AED1FAC16DE7D5600E872E3 /* OMMapper.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3A6D3F1716DE7F1B005EAA6C /* NSObject+MFIntrospectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MFIntrospectable.h"; sourceTree = "<group>"; };
-		3A6D3F1816DE7F1B005EAA6C /* NSObject+MFIntrospectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MFIntrospectable.m"; sourceTree = "<group>"; };
-		3A6D3F1A16DE7F63005EAA6C /* MFDummy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFDummy.h; sourceTree = "<group>"; };
-		3A6D3F1B16DE7F63005EAA6C /* MFDummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFDummy.m; sourceTree = "<group>"; };
-		3A6D3F1C16DE7F63005EAA6C /* MFIntrospectableTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFIntrospectableTest.h; sourceTree = "<group>"; };
-		3A6D3F1D16DE7F63005EAA6C /* MFIntrospectableTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFIntrospectableTest.m; sourceTree = "<group>"; };
-		3A6D3F1E16DE7F63005EAA6C /* MFMapperTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFMapperTest.h; sourceTree = "<group>"; };
-		3A6D3F1F16DE7F63005EAA6C /* MFMapperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMapperTest.m; sourceTree = "<group>"; };
+		3A6D3F1716DE7F1B005EAA6C /* NSObject+OMIntrospectable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+OMIntrospectable.h"; sourceTree = "<group>"; };
+		3A6D3F1816DE7F1B005EAA6C /* NSObject+OMIntrospectable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+OMIntrospectable.m"; sourceTree = "<group>"; };
+		3A6D3F1A16DE7F63005EAA6C /* OMDummy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMDummy.h; sourceTree = "<group>"; };
+		3A6D3F1B16DE7F63005EAA6C /* OMDummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMDummy.m; sourceTree = "<group>"; };
+		3A6D3F1C16DE7F63005EAA6C /* OMIntrospectableTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMIntrospectableTest.h; sourceTree = "<group>"; };
+		3A6D3F1D16DE7F63005EAA6C /* OMIntrospectableTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMIntrospectableTest.m; sourceTree = "<group>"; };
+		3A6D3F1E16DE7F63005EAA6C /* OMMapperTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMMapperTest.h; sourceTree = "<group>"; };
+		3A6D3F1F16DE7F63005EAA6C /* OMMapperTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMMapperTest.m; sourceTree = "<group>"; };
 		3AED1FA316DE7D5600E872E3 /* libMFMapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMFMapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AED1FA616DE7D5600E872E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3AED1FAA16DE7D5600E872E3 /* MFMapper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MFMapper-Prefix.pch"; sourceTree = "<group>"; };
-		3AED1FAB16DE7D5600E872E3 /* MFMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFMapper.h; sourceTree = "<group>"; };
-		3AED1FAD16DE7D5600E872E3 /* MFMapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFMapper.m; sourceTree = "<group>"; };
+		3AED1FAB16DE7D5600E872E3 /* OMMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMMapper.h; sourceTree = "<group>"; };
+		3AED1FAD16DE7D5600E872E3 /* OMMapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMMapper.m; sourceTree = "<group>"; };
 		3AED1FB416DE7D5600E872E3 /* MFMapperTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFMapperTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AED1FB516DE7D5600E872E3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		3AED1FB716DE7D5600E872E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -121,10 +121,10 @@
 		3AED1FA816DE7D5600E872E3 /* MFMapper */ = {
 			isa = PBXGroup;
 			children = (
-				3AED1FAB16DE7D5600E872E3 /* MFMapper.h */,
-				3AED1FAD16DE7D5600E872E3 /* MFMapper.m */,
-				3A6D3F1716DE7F1B005EAA6C /* NSObject+MFIntrospectable.h */,
-				3A6D3F1816DE7F1B005EAA6C /* NSObject+MFIntrospectable.m */,
+				3AED1FAB16DE7D5600E872E3 /* OMMapper.h */,
+				3AED1FAD16DE7D5600E872E3 /* OMMapper.m */,
+				3A6D3F1716DE7F1B005EAA6C /* NSObject+OMIntrospectable.h */,
+				3A6D3F1816DE7F1B005EAA6C /* NSObject+OMIntrospectable.m */,
 				3AED1FA916DE7D5600E872E3 /* Supporting Files */,
 			);
 			path = MFMapper;
@@ -141,12 +141,12 @@
 		3AED1FBD16DE7D5600E872E3 /* MFMapperTests */ = {
 			isa = PBXGroup;
 			children = (
-				3A6D3F1A16DE7F63005EAA6C /* MFDummy.h */,
-				3A6D3F1B16DE7F63005EAA6C /* MFDummy.m */,
-				3A6D3F1C16DE7F63005EAA6C /* MFIntrospectableTest.h */,
-				3A6D3F1D16DE7F63005EAA6C /* MFIntrospectableTest.m */,
-				3A6D3F1E16DE7F63005EAA6C /* MFMapperTest.h */,
-				3A6D3F1F16DE7F63005EAA6C /* MFMapperTest.m */,
+				3A6D3F1A16DE7F63005EAA6C /* OMDummy.h */,
+				3A6D3F1B16DE7F63005EAA6C /* OMDummy.m */,
+				3A6D3F1C16DE7F63005EAA6C /* OMIntrospectableTest.h */,
+				3A6D3F1D16DE7F63005EAA6C /* OMIntrospectableTest.m */,
+				3A6D3F1E16DE7F63005EAA6C /* OMMapperTest.h */,
+				3A6D3F1F16DE7F63005EAA6C /* OMMapperTest.m */,
 				3AED1FBE16DE7D5600E872E3 /* Supporting Files */,
 			);
 			path = MFMapperTests;
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AED1FAE16DE7D5600E872E3 /* MFMapper.m in Sources */,
-				3A6D3F1916DE7F1B005EAA6C /* NSObject+MFIntrospectable.m in Sources */,
+				3AED1FAE16DE7D5600E872E3 /* OMMapper.m in Sources */,
+				3A6D3F1916DE7F1B005EAA6C /* NSObject+OMIntrospectable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,10 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A6D3F2016DE7F63005EAA6C /* MFDummy.m in Sources */,
-				3A6D3F2116DE7F63005EAA6C /* MFIntrospectableTest.m in Sources */,
-				3A6D3F2216DE7F63005EAA6C /* MFMapperTest.m in Sources */,
-				3A6D3F2316DE8010005EAA6C /* NSObject+MFIntrospectable.m in Sources */,
+				3A6D3F2016DE7F63005EAA6C /* OMDummy.m in Sources */,
+				3A6D3F2116DE7F63005EAA6C /* OMIntrospectableTest.m in Sources */,
+				3A6D3F2216DE7F63005EAA6C /* OMMapperTest.m in Sources */,
+				3A6D3F2316DE8010005EAA6C /* NSObject+OMIntrospectable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

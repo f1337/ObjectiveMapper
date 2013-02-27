@@ -1,6 +1,6 @@
 //
-//  MFMapperTest.m
-//  Empire
+//  OMMapperTest.m
+//  ObjectiveMapper
 //
 //  Created by Michael R. Fleet on 12/20/12.
 //  Copyright (c) 2012 Michael Fleet. All rights reserved.
@@ -8,17 +8,17 @@
 
 
 
-#import "MFMapperTest.h"
-#import "MFDummy.h"
-#import "NSObject+MFIntrospectable.h"
+#import "OMMapperTest.h"
+#import "OMDummy.h"
+#import "NSObject+OMIntrospectable.h"
 
 
 
-#pragma mark - MFMapper
+#pragma mark - OMMapper
 
 
 
-@interface MFMapper : NSObject
+@interface OMMapper : NSObject
 
 
 
@@ -31,7 +31,7 @@
 
 
 
-@implementation MFMapper
+@implementation OMMapper
 
 
 
@@ -136,11 +136,11 @@
 
 
 
-#pragma mark - MFMapperTest
+#pragma mark - OMMapperTest
 
 
 
-@implementation MFMapperTest
+@implementation OMMapperTest
 
 
 
@@ -168,7 +168,7 @@
         @"url" : @"aURL"
     }];
 
-    [self setObject:[MFMapper mapValuesFromDictionary:_source withMap:_map forClass:[MFDummy class]]];
+    [self setObject:[OMMapper mapValuesFromDictionary:_source withMap:_map forClass:[OMDummy class]]];
 }
 
 
@@ -203,7 +203,7 @@
         @"test"         : @"dummy"
     };
 
-    NSDictionary *resultDict = [MFMapper mapValuesFromDictionary:sourceDict withMap:mapDict];
+    NSDictionary *resultDict = [OMMapper mapValuesFromDictionary:sourceDict withMap:mapDict];
     STAssertTrue([[resultDict valueForKey:@"name"] isEqualToString:[sourceDict valueForKeyPath:@"person.name"]], nil);
     STAssertTrue([[resultDict valueForKey:@"date"] isEqualToString:[sourceDict valueForKeyPath:@"signup.date"]], nil);
     STAssertTrue([[resultDict valueForKey:@"dummy"] isEqualToString:[sourceDict valueForKeyPath:@"test"]], nil);
@@ -250,7 +250,7 @@
     
     NSDictionary *map = @{ @"bool" : @"aNumber" };
     
-    [self setObject:[MFMapper mapValuesFromDictionary:source withMap:map forClass:[MFDummy class]]];
+    [self setObject:[OMMapper mapValuesFromDictionary:source withMap:map forClass:[OMDummy class]]];
     
     STAssertTrue([[_object aNumber] isKindOfClass:[NSNumber class]], nil);
     STAssertTrue((! [[_object aNumber] boolValue] ), nil);
@@ -266,7 +266,7 @@
     
     NSDictionary *map = @{ @"bool" : @"aNumber" };
 
-    [self setObject:[MFMapper mapValuesFromDictionary:source withMap:map forClass:[MFDummy class]]];
+    [self setObject:[OMMapper mapValuesFromDictionary:source withMap:map forClass:[OMDummy class]]];
     
     STAssertTrue([[_object aNumber] isKindOfClass:[NSNumber class]], nil);
     STAssertTrue([[_object aNumber] boolValue], nil);
@@ -294,7 +294,7 @@
         {
             NSDictionary *source = @{ @"bool" : value };
             
-            [self setObject:[MFMapper mapValuesFromDictionary:source withMap:map forClass:[MFDummy class]]];
+            [self setObject:[OMMapper mapValuesFromDictionary:source withMap:map forClass:[OMDummy class]]];
             
             STAssertTrue([[_object aNumber] isKindOfClass:[NSNumber class]], nil);
             STAssertTrue([[_object aNumber] boolValue], @"'%@' should be true.", value);
@@ -315,7 +315,7 @@
         {
             NSDictionary *source = @{ @"bool" : value };
             
-            [self setObject:[MFMapper mapValuesFromDictionary:source withMap:map forClass:[MFDummy class]]];
+            [self setObject:[OMMapper mapValuesFromDictionary:source withMap:map forClass:[OMDummy class]]];
             
             STAssertTrue([[_object aNumber] isKindOfClass:[NSNumber class]], nil);
             STAssertTrue(( ! [[_object aNumber] boolValue] ), @"'%@' should be false.", value);

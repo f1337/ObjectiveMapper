@@ -1,6 +1,6 @@
 //
-//  MFMapperTest.h
-//  Empire
+//  OMMapperTest.h
+//  ObjectiveMapper
 //
 //  Created by Michael R. Fleet on 12/20/12.
 //  Copyright (c) 2012 Michael Fleet. All rights reserved.
@@ -8,16 +8,16 @@
 
 
 #import <SenTestingKit/SenTestingKit.h>
-#import "MFDummy.h"
+#import "OMDummy.h"
 
 
 
-@interface MFMapperTest : SenTestCase
+@interface OMMapperTest : SenTestCase
 
 
 
 @property NSDictionary  *map;
-@property MFDummy       *object;
+@property OMDummy       *object;
 @property NSDictionary  *source;
 
 

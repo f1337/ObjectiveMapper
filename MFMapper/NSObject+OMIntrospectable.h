@@ -1,6 +1,6 @@
 //
-//  NSObject+MFIntrospectable.h
-//  Empire
+//  NSObject+OMIntrospectable.h
+//  ObjectiveMapper
 //
 //  Created by Michael R. Fleet on 12/21/12.
 //  Copyright (c) 2012 Michael Fleet. All rights reserved.
@@ -12,7 +12,7 @@
 
 
 
-@interface NSObject (MFIntrospectable)
+@interface NSObject (OMIntrospectable)
 
 
 

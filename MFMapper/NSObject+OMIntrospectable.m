@@ -1,6 +1,6 @@
 //
-//  NSObject+MFIntrospectable.m
-//  Empire
+//  NSObject+OMIntrospectable.m
+//  ObjectiveMapper
 //
 //  Created by Michael R. Fleet on 12/21/12.
 //  Copyright (c) 2012 Michael R. Fleet. All rights reserved.
@@ -8,7 +8,7 @@
 
 
 
-#import "NSObject+MFIntrospectable.h"
+#import "NSObject+OMIntrospectable.h"
 #import <objc/runtime.h>
 
 
@@ -36,11 +36,11 @@ const char * property_getTypeString( objc_property_t property )
 
 
 
-#pragma mark - MFIntrospectable
+#pragma mark - OMIntrospectable
 
 
 
-@implementation NSObject (MFIntrospectable)
+@implementation NSObject (OMIntrospectable)
 
 
 
